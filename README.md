@@ -9,10 +9,16 @@ You are going to build a full stack web application with node.js + React. In ord
 - application routes
 - views
 - api layer
-  - data access [this assignment]
+  - data access
   - data models + relations (ORM)
   - RESTful routes
-- **authentication**
+  - authentication
+    - **initial configuration [this assignment]**
+    - application integration
+  - React
+    - initial configuration
+    - application api integration
+    - application auth integration
 
 
 ## The Assignment
@@ -125,7 +131,7 @@ cd ~/Documents/muktek/assignments/project--devjobs
 git add .
 git commit -m 'committing work from part-06-rest-api'
 
-# (3) You will work on the part-06-rest-api branch for this feature
+# (3) You will work on the part-07-auth-part-1 branch for this feature
 git checkout -b part-07-auth-part-1
 
 ```
