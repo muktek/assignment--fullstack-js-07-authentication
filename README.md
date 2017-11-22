@@ -42,6 +42,9 @@ GET  - `/auth/current`   - Checks for a user's current authenticated session.
 ### Requirements
 In order to complete this assignment, you will need to:
 
+- [x] **Download + Install Postman request client**
+  - https://www.getpostman.com/
+
 - [x] **Install yeoman + nxkplus generator**
   ```sh
   npm install -g yo
@@ -94,7 +97,7 @@ In order to complete this assignment, you will need to:
   app.use('/auth', authRouter)
   ```
 
-+ [x] **Test Routes in Postman**
++ [x] **Test Routes in [Postman]()**
   + POST - `/auth/register`
     + application/json body:
     ```
@@ -125,12 +128,4 @@ git commit -m 'committing work from part-06-rest-api'
 # (3) You will work on the part-06-rest-api branch for this feature
 git checkout -b part-07-auth-part-1
 
-```
-
-### Adventure Mode
-
-Create the DELETE route for companies. To make this work, you will need query and delete the related jobs that have the companyId as a foreign key.
-
-```
-DELETE - `/api/companies/:id` - Deletes a company (and it's jobs)
 ```
