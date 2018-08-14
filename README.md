@@ -12,13 +12,13 @@ You are going to build a full stack web application with node.js + React. In ord
   - data access
   - data models + relations (ORM)
   - RESTful routes
-  - authentication
-    - **initial configuration [this assignment]**
-    - application integration
-  - React
-    - initial configuration
-    - application api integration
-    - application auth integration
+- **authentication**
+  - **initial configuration [this assignment]**
+  - client-application integration
+- React
+  - initial configuration
+  - application api integration
+  - application auth integration
 
 
 ## The Assignment
@@ -54,15 +54,15 @@ In order to complete this assignment, you will need to:
 - [x] **Install yeoman + nxkplus generator**
   ```sh
   npm install -g yo
-  npm install -g generator-nxkplus
+  npm install -g generator-nxko
 
   # check for prompt
-  yo nxkplus
+  yo nxko
   ```
 
 - [x] **Run the nxkplus authentication generator**
   ```sh
-  yo nxkplus:auth
+  yo nxko:auth
   ```
 
 - [x] **Import the libraries + middleware**
@@ -117,7 +117,7 @@ In order to complete this assignment, you will need to:
 
   + GET - `/auth/login`
 
-  + GET - `/auth/logout`
+  + POST - `/auth/logout`
 
 ## Setup Instructions
 
@@ -125,13 +125,13 @@ In Terminal:
 
 ```sh
 # (1) navigate to your project--devjobs directory
-cd ~/Documents/muktek/assignments/project--devjobs
+cd ~/muktek/assignments/project--devjobs
 
 # (2) Commit your changes from the previous demo
 git add .
 git commit -m 'committing work from part-06-rest-api'
 
-# (3) You will work on the part-07-auth-part-1 branch for this feature
-git checkout -b part-07-auth-part-1
+# (3) You will work on the part-07-auth-config branch for this feature
+git checkout -b part-07-auth-config
 
 ```
