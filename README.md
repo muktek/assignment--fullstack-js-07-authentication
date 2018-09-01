@@ -115,7 +115,7 @@ In order to complete this assignment, you will need to:
     {"email" : "testeracct@mail.com", "password": "1234"}
     ```
 
-  + GET - `/auth/login`
+  + GET - `/auth/current`
 
   + POST - `/auth/logout`
 
